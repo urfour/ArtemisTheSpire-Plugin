@@ -1,0 +1,15 @@
+{
+  "Guid": "97BEA404-5C66-4B35-8B3D-96163E8F895A",
+  "Name": "SlayTheSpire",
+  "Description": "Artemis Game State Integration for SlayTheSpire",
+  "Author": "UrFour",
+  "Website": "",
+  "Repository": "",
+  "Icon": "Resources/icon.png",
+  "Version": "0.1.0",
+  "Main": "Artemis.Plugins.Games.SlayTheSpire.dll",
+  "AutoEnableProperties": true,
+  "RequiresAdmin": false,
+  "Platforms": "Windows,Linux,OSX",
+  "Api": "1.0.0"
+}
