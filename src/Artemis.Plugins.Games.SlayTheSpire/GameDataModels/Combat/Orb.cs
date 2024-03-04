@@ -1,4 +1,4 @@
-﻿namespace Artemis.Plugins.Games.SlayTheSpire.DataModels.Combat
+﻿namespace Artemis.Plugins.Games.SlayTheSpire.GameDataModels.Combat
 {
     public class Orb
     {

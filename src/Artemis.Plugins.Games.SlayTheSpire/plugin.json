@@ -6,7 +6,7 @@
   "Website": "",
   "Repository": "",
   "Icon": "Resources/icon.png",
-  "Version": "0.1.0",
+  "Version": "1.0.0",
   "Main": "Artemis.Plugins.Games.SlayTheSpire.dll",
   "AutoEnableProperties": true,
   "RequiresAdmin": false,

@@ -1,4 +1,4 @@
-﻿namespace Artemis.Plugins.Games.SlayTheSpire.DataModels
+﻿namespace Artemis.Plugins.Games.SlayTheSpire.GameDataModels
 {
     public class Keys
     {

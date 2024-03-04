@@ -1,10 +1,9 @@
 ﻿using Artemis.Core.Modules;
-using Artemis.Plugins.Games.SlayTheSpire.DataModels.Combat;
 using System;
 
-namespace Artemis.Plugins.Games.SlayTheSpire.DataModels
+namespace Artemis.Plugins.Games.SlayTheSpire.GameDataModels.Combat
 {
-    public class PlayerState
+    public class Player
     {
         public int MaxHP { get; set; }
         public int CurrentHP { get; set; }

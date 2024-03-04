@@ -1,6 +1,6 @@
-﻿using Artemis.Plugins.Games.SlayTheSpire.DataModels.Cards;
+﻿using Artemis.Plugins.Games.SlayTheSpire.GameDataModels;
 
-namespace Artemis.Plugins.Games.SlayTheSpire.DataModels.Combat
+namespace Artemis.Plugins.Games.SlayTheSpire.GameDataModels.Combat
 {
     public class Power
     {

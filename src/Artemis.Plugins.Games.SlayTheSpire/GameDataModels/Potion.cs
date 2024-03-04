@@ -1,7 +1,7 @@
 ﻿using Artemis.Core.Modules;
 using System;
 
-namespace Artemis.Plugins.Games.SlayTheSpire.DataModels
+namespace Artemis.Plugins.Games.SlayTheSpire.GameDataModels
 {
     public class Potion
     {

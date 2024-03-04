@@ -1,11 +1,10 @@
 ﻿using Artemis.Core.Modules;
-using Artemis.Plugins.Games.SlayTheSpire.DataModels.Cards;
-using Artemis.Plugins.Games.SlayTheSpire.DataModels.Combat;
-using System.Collections.Generic;
+using Artemis.Plugins.Games.SlayTheSpire.DataModels;
+using Artemis.Plugins.Games.SlayTheSpire.GameDataModels.Combat;
 
-namespace Artemis.Plugins.Games.SlayTheSpire.DataModels
+namespace Artemis.Plugins.Games.SlayTheSpire.GameDataModels
 {
-    public class GameState
+    public class InGameState
     {
         public string? ScreenName { get; set; }
         public bool IsScreenUp { get; set; }
@@ -22,15 +21,15 @@ namespace Artemis.Plugins.Games.SlayTheSpire.DataModels
         public long Seed { get; set; }
         public string? Class { get; set; }
         public int AscensionLevel { get; set; }
-        public CombatState? CombatState { get; set; }
+        public GameCombatState? CombatState { get; set; }
         public Relic[]? Relics { get; set; }
         public Card[]? Deck { get; set; }
         public Room[]? Map { get; set; }
         public Potion[]? Potions { get; set; }
-        public Keys Keys { get; set; } 
-        public GameState() {
+        public Keys Keys { get; set; }
+        public InGameState()
+        {
             Keys = new Keys();
         }
-        public void Update() { }
     }
 }

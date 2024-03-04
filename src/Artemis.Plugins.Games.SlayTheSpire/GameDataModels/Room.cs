@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Artemis.Plugins.Games.SlayTheSpire.DataModels
+namespace Artemis.Plugins.Games.SlayTheSpire.GameDataModels
 {
     public class Room
     {
@@ -12,6 +12,6 @@ namespace Artemis.Plugins.Games.SlayTheSpire.DataModels
         }
         public string? Symbol { get; set; }
         public Coordinates[]? Children { get; set; }
-        public Room() {}
+        public Room() { }
     }
 }
