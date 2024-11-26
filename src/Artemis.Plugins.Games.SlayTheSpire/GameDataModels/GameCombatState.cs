@@ -9,6 +9,7 @@ namespace Artemis.Plugins.Games.SlayTheSpire.GameDataModels.Combat
 {
     public class GameCombatState : DataModel
     {
+        public bool IsPlayerTurn { get; set; }
         public Card[]? DrawPile { get; set; }
         public Card[]? DiscardPile { get; set; }
         public Card[]? ExhaustPile { get; set; }
@@ -22,3 +23,4 @@ namespace Artemis.Plugins.Games.SlayTheSpire.GameDataModels.Combat
         public int TimesDamaged { get; set; }
     }
 }
+    

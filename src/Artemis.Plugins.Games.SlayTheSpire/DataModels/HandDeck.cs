@@ -18,26 +18,16 @@ namespace Artemis.Plugins.Games.SlayTheSpire.DataModels
 
         public void Update(Card[] hand)
         {
-            if (hand.Length > 0)
-                Card1 = hand[0];
-            if (hand.Length > 1)
-                Card2 = hand[1];
-            if (hand.Length > 2)
-                Card3 = hand[2];
-            if (hand.Length > 3)
-                Card4 = hand[3];
-            if (hand.Length > 4)
-                Card5 = hand[4];
-            if (hand.Length > 5)
-                Card6 = hand[5];
-            if (hand.Length > 6)
-                Card7 = hand[6];
-            if (hand.Length > 7)
-                Card8 = hand[7];
-            if (hand.Length > 8)
-                Card9 = hand[8];
-            if (hand.Length > 9)
-                Card10 = hand[9];
+            if (hand.Length > 0) Card1 = hand[0]; else Card1 = null;
+            if (hand.Length > 1) Card2 = hand[1]; else Card2 = null;
+            if (hand.Length > 2) Card3 = hand[2]; else Card3 = null;
+            if (hand.Length > 3) Card4 = hand[3]; else Card4 = null;
+            if (hand.Length > 4) Card5 = hand[4]; else Card5 = null;
+            if (hand.Length > 5) Card6 = hand[5]; else Card6 = null;
+            if (hand.Length > 6) Card7 = hand[6]; else Card7 = null;
+            if (hand.Length > 7) Card8 = hand[7]; else Card8 = null;
+            if (hand.Length > 8) Card9 = hand[8]; else Card9 = null;
+            if (hand.Length > 9) Card10 = hand[9]; else Card10 = null;
             CardCount = hand.Length;
         }
     }

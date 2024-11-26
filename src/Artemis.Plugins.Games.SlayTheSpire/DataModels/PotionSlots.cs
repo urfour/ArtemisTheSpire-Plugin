@@ -11,16 +11,11 @@ namespace Artemis.Plugins.Games.SlayTheSpire.DataModels
         public Potion? Slot5 { get; set; }
         public void Update(Potion[] potions)
         {
-            if (potions.Length > 0)
-                Slot1 = potions[0];
-            if (potions.Length > 1)
-                Slot2 = potions[1];
-            if (potions.Length > 2)
-                Slot3 = potions[2];
-            if (potions.Length > 3)
-                Slot4 = potions[3];
-            if (potions.Length > 4)
-                Slot5 = potions[4];
+            if (potions.Length > 0) Slot1 = potions[0]; else Slot1 = null;
+            if (potions.Length > 1) Slot2 = potions[1]; else Slot2 = null;
+            if (potions.Length > 2) Slot3 = potions[2]; else Slot3 = null;
+            if (potions.Length > 3) Slot4 = potions[3]; else Slot4 = null;
+            if (potions.Length > 4) Slot5 = potions[4]; else Slot5 = null;
         }
     }
 }

@@ -6,6 +6,7 @@ namespace Artemis.Plugins.Games.SlayTheSpire.GameDataModels
 {
     public class InGameState
     {
+        public bool InGame { get; set; }
         public string? ScreenName { get; set; }
         public bool IsScreenUp { get; set; }
         public string? ScreenType { get; set; }

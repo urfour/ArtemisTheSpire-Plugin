@@ -31,6 +31,7 @@ public class StsDataModel : DataModel
     public StsDataModel() { }
     public void Update(InGameState gameState)
     {
+        InGame = gameState.InGame;
         ScreenName = gameState.ScreenName;
         IsScreenUp = gameState.IsScreenUp;
         ScreenType = gameState.ScreenType;
